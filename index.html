@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>27 oct task</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- JavaScript links -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid text-center">
+        <div class="row bg">
+            <div class="col-md-2 col-sm-6 pt-3 logo-container">
+                <img src="/images/logo-tem.png" alt="logo" class="img-fluid logo">
+            </div>
+            <div class="col-md-10">
+                <nav class="navbar navbar-expand-lg navbar-light py-3">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link text-white" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Pages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-warning ms-3 my-2 my-lg-0 quote-btn">Get IT
+                            Support</button>
+                    </div>
+                </nav>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h4 class="text-white">THIS IS LUXURY HOTEL</h4>
+                    <h1 class="text-white">SUPERIOR HOTEL IN WORLD</h1>
+                    <p class="text-white">A wonderful serenity has taken possession of my entire soul, like these sweet
+                        mornings of spring which I enjoy with my whole heart.</p>
+                    <button type="button" class="btn btn-warning">Rooms & Suites</button>
+                </div>
+            </div>
+        </div>
+        <div class="row mx-5 form-container">
+            <div class="col-md-2">
+                <h3 class="form-heading">Check In</h3>
+                <input type="date" class="form-control date-input">
+            </div>
+            <div class="col-md-2">
+                <h3 class="form-heading">Check Out</h3>
+                <input type="date" class="form-control date-input">
+            </div>
+            <div class="col-md-2">
+                <h3 class="form-heading">Adults</h3>
+                <input type="number" class="form-control number-input" min="1" value="1">
+            </div>
+            <div class="col-md-2">
+                <h3 class="form-heading">Children</h3>
+                <input type="number" class="form-control number-input" min="0" value="0">
+            </div>
+            <div class="col-md-2">
+                <h3 class="form-heading">Rooms</h3>
+                <input type="number" class="form-control number-input" min="1" value="1">
+            </div>
+            <div class="col-md-2 text-center pt-5">
+                <button type="button" class="btn check-button">Check Now</button>
+            </div>
+        </div>
+        <div class="row about-container my-5">
+            <div class="about-image col-12 col-md-6 d-flex justify-content-center align-items-center">
+                <img src="/images/about-img-main.png" alt="" class="img-fluid">
+            </div>
+            <div class="about-text col-12 col-md-6 p-4 bg-dark rounded shadow">
+                <h5 class="text-warning fw-bold">THE LUXURY HOTEL</h5>
+                <h2 class="text-white fw-bold">Find the Right Apartment, Hotel & Resort for You</h2>
+                <p class="text-white">Over 39,000 people work for us in more than 70 countries. This breadth of global
+                    coverage, combined with specialist services, ensures we meet your needs wherever you are.</p>
+
+                <div class="row my-3">
+                    <div class="col-12 col-md bg-light text-black rounded p-3 shadow-sm">
+                        <h3 class="fw-bold text-warning">5 Star Hotels Around the World</h3>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                        </p>
+                    </div>
+                </div>
+                <div class="row my-3">
+                    <div class="col-12 col-md bg-light text-black rounded p-3 shadow-sm">
+                        <h3 class="text-warning fw-bold">Best Environment</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="all text-center">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="text-uppercase hotel-title pt-3">THE LUXURY HOTEL</h3>
+                    <h1 class="display-4 font-weight-bold hotel-heading">Rooms & Suites</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4 room-card deluxe">
+                    <h3 class="fw-bold">Deluxe Double Rooms</h3>
+                    <p>38m² / 2 beds / 1 bathroom</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 room-card double">
+                    <h3 class="fw-bold">Double Room</h3>
+                    <p>38m² / 2 beds / 1 bathroom</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 room-card superior">
+                    <h3 class="fw-bold">Superior Room</h3>
+                    <p>50m² / 3 beds / 2 bathroom</p>
+                </div>
+            </div>
+        </div>
+        <div class="facilities-section">
+            <h5 class="facilities-title">Hotel Facilities</h5>
+            <h1 class="hotel-heading">Finest And Luxurious Hotel In The Town</h1>
+            <p class="hotel-description">A wonderful serenity has taken possession of my entire soul, like these
+                sweet mornings of spring which I enjoy with my whole heart.</p>
+        </div>
+        <div class="row text-center mx-2 pt-3">
+            <div class="col-md-2 feature parking">
+                <h3>Parking</h3>
+                <i class='bx bxs-parking'></i>
+            </div>
+            <div class="col-md-2 feature alarm">
+                <h3>Alarm</h3>
+                <i class='bx bx-alarm'></i>
+            </div>
+            <div class="col-md-2 feature wifi">
+                <h3>Wifi</h3>
+                <i class='bx bx-wifi'></i>
+            </div>
+            <div class="col-md-2 feature coffee">
+                <h3>Coffee</h3>
+                <i class='bx bx-coffee'></i>
+            </div>
+            <div class="col-md-2 feature bath">
+                <h3>Bath</h3>
+                <i class='bx bx-bath'></i>
+            </div>
+            <div class="col-md-2 feature meal">
+                <h3>Meal</h3>
+                <i class='bx bx-restaurant'></i>
+            </div>
+        </div>
+        <div class="luxury pt-5">
+            <div class="row luxury-row align-items-center">
+                <div class="col-md-6 luxury-image">
+                    <img src="/images/hotel1-931x1024.jpg" alt="Luxury Hotel" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-6 luxury-text">
+                    <h3 class="luxury-heading">Relax and Unwind</h3>
+                    <h1 class="luxury-title">The Best Luxury Hotel</h1>
+                    <p class="luxury-description">Experience unparalleled comfort and rejuvenation at our spa center.
+                        Indulge in a variety of treatments designed for your well-being.</p>
+                    <ul class="luxury-features list-unstyled">
+                        <li class="luxury-item">✔ Thermal water with ancient baths</li>
+                        <li class="luxury-item">✔ Turkish bath</li>
+                        <li class="luxury-item">✔ Traditional sauna</li>
+                        <li class="luxury-item">✔ Relaxing therapy massage</li>
+                    </ul>
+                    <button type="button" class="btn btn-primary book-button">Book Now</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="health-club-section pt-5">
+            <div class="container">
+                <div class="row health-club-row align-items-center">
+                    <div class="col-md-6 health-club-text">
+                        <h3 class="health-club-heading">Elevate Your Wellness</h3>
+                        <h1 class="health-club-title">The Health Club & Pool</h1>
+                        <p class="health-club-description">Join us to experience the ultimate in relaxation and
+                            rejuvenation. Our state-of-the-art facilities are designed for your well-being.</p>
+                        <ul class="health-club-features list-unstyled">
+                            <li class="health-club-item">✔ Thermal water with ancient baths</li>
+                            <li class="health-club-item">✔ Invigorating Turkish bath</li>
+                            <li class="health-club-item">✔ Authentic sauna experience</li>
+                            <li class="health-club-item">✔ Relaxing massage therapy</li>
+                        </ul>
+                        <button class="btn btn-primary btn-lg mt-4">Join Us Today</button>
+                    </div>
+                    <div class="col-md-6 health-club-image">
+                        <img src="/images/jpg.jpg" alt="Health Club" class="img-fluid rounded shadow">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-5 text-center services-section ">
+            <div class="col-md-4 text-center service-info">
+                <h4 class="service-subtitle">BEST PRICES</h4>
+                <h1 class="service-title">Extra Services</h1>
+                <p class="service-description">Duis aute irure dolor in reprehenderit in the voluptate velit esse cillum
+                    dolore eu fugiat nulla pariatur.</p>
+                <p class="service-description">Excepteur sint occaecat cupidatat non pro proident, sunt in culpa qui
+                    officia deserunt mollit anim est laborum.</p>
+                <h2 class="service-contact">
+                    <i class='bx bx-phone-call'></i> 880 987 654 765
+                </h2>
+                <h2 class="service-more-info">For More Information</h2>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card service-card">
+                    <img class="img-fluid service-card-image" src="/images/room-cleaning.jpg" alt="Room Cleaning">
+                    <div class="card-body service-card-body">
+                        <h1 class="card-title service-card-title">Room Cleaning</h1>
+                        <ul class="service-list">
+                            <li class="service-list-item">✔ Nunc scelerisque velit a pulvina</li>
+                            <li class="service-list-item">✔ Donec a ligula lacinia, consect</li>
+                            <li class="service-list-item">✔ Praesent ultrices urna purus</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card service-card">
+                    <img class="img-fluid service-card-image" src="/images/exservice1.jpeg" alt="Morning Breakfast">
+                    <div class="card-body service-card-body">
+                        <h1 class="card-title service-card-title">Morning Breakfast</h1>
+                        <ul class="service-list">
+                            <li class="service-list-item">✔ Nunc scelerisque velit a pulvina</li>
+                            <li class="service-list-item">✔ Donec a ligula lacinia, consect</li>
+                            <li class="service-list-item">✔ Praesent ultrices urna purus</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row testimonials-section">
+            <div class="col-md-12 text-center">
+                <h1 class="testimonials-title">Testimonials</h1>
+                <h2 class="testimonials-subtitle">What Our Clients Say</h2>
+                <div class="row feedback-container justify-content-center">
+                    <div class="col-md-4 feedback-item">
+                        <div class="feedback">
+                            <div class="star-rating">
+                                <span class="star filled">&#9733;</span>
+                                <span class="star filled">&#9733;</span>
+                                <span class="star filled">&#9733;</span>
+                                <span class="star filled">&#9733;</span>
+                                <span class="star">&#9734;</span>
+                            </div>
+                            <p class="feedback-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis
+                                nostrud exercitation."</p>
+                            <h5 class="feedback-author">- Shelly Thakur</h5>
+                            <img class="feedback-image" src="/images/testi-1.jpg" alt="Shelly Thakur">
+                        </div>
+                    </div>
+                    <div class="col-md-4 feedback-item">
+                        <div class="feedback">
+                            <div class="star-rating">
+                                <span class="star filled">&#9733;</span>
+                                <span class="star filled">&#9733;</span>
+                                <span class="star filled">&#9733;</span>
+                                <span class="star filled">&#9733;</span>
+                                <span class="star filled">&#9733;</span>
+                            </div>
+                            <p class="feedback-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis
+                                nostrud exercitation."</p>
+                            <h5 class="feedback-author">- Sania Thakur</h5>
+                            <img class="feedback-image" src="/images/testi-02.jpg" alt="Sania Thakur">
+                        </div>
+                    </div>
+                    <div class="col-md-4 feedback-item">
+                        <div class="feedback">
+                            <div class="star-rating">
+                                <span class="star filled">&#9733;</span>
+                                <span class="star filled">&#9733;</span>
+                                <span class="star filled">&#9733;</span>
+                                <span class="star filled">&#9733;</span>
+                                <span class="star filled">&#9733;</span>
+                            </div>
+                            <p class="feedback-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis
+                                nostrud exercitation."</p>
+                            <h5 class="feedback-author">- Pranav Thakur</h5>
+                            <img class="feedback-image" src="/images/testi-1 (3).jpg" alt="Pranav Thakur">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row news-offers-section justify-content-center">
+            <div class="col-md-12 text-center">
+                <h1 class="section-title">News & Offers</h1>
+                <p class="section-description">
+                    A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring
+                    which I enjoy with my whole heart.
+                </p>
+            </div>
+            <div class="row blog-section justify-content-center">
+                <div class="col-lg-4 col-md-4 col-sm-12 blog-post">
+                    <img src="/images/blog1-390x290.jpg" alt="Camping in Italy" class="img-fluid blog-image">
+                    <h5 class="blog-date">August 20, 2022</h5>
+                    <h2 class="blog-title">Camping in Italy</h2>
+                    <p class="blog-description">Quisque pretium fermentum quam, sit amet cursus ante sollicitudin.</p>
+                    <button type="button" class="btn btn-borderless">Read More</button>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 blog-post">
+                    <img src="/images/blog2-390x290.jpg" alt="Coffee in Malmö" class="img-fluid blog-image">
+                    <h5 class="blog-date">August 20, 2022</h5>
+                    <h2 class="blog-title">Coffee in Malmö</h2>
+                    <p class="blog-description">Quisque pretium fermentum quam, sit amet cursus ante sollicitudin.</p>
+                    <button type="button" class="btn btn-borderless">Read More</button>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 blog-post">
+                    <img src="/images/blog1-390x290.jpg" alt="Camping in Italy" class="img-fluid blog-image">
+                    <h5 class="blog-date">August 20, 2022</h5>
+                    <h2 class="blog-title">Camping in Italy</h2>
+                    <p class="blog-description">Quisque pretium fermentum quam, sit amet cursus ante sollicitudin.</p>
+                    <button type="button" class="btn btn-borderless">Read More</button>
+                </div>
+            </div>
+        </div>
+        <div class="row booking-section">
+            <div class="col-md-6 info-section">
+                <h1 class="info-title">Call us, it's toll-free.</h1>
+                <p class="info-description">Our guest rooms are equipped with private baths, high-speed Wi-Fi, cable
+                    television, and a complimentary full breakfast. Enjoy our unique pond swing system too!</p>
+                <div class="info-contact">
+                    <i class="bx bx-phone-call phone-icon"></i>
+                    <span class="contact-number">880 987 654 765</span>
+                    <p class="info-more">For More Information</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="booking-form-section">
+                    <h3 class="form-title">ROOMS & SUITES</h3>
+                    <h2 class="form-header">Hotel Booking Form</h2>
+                    <form class="booking-form">
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <label for="check-in">Check-in</label>
+                                <input type="date" class="form-control" id="check-in">
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label for="check-out">Check-Out</label>
+                                <input type="date" class="form-control" id="check-out">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <label for="adult">Adult</label>
+                                <input type="number" class="form-control" placeholder="1" id="adult" min="1">
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label for="children">Children</label>
+                                <input type="number" class="form-control" placeholder="1" id="children" min="0">
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary">Check Availability</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="pt-5"></div>
+        <footer class="footer-section pt-5">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3 mb-4">
+                    <h1 class="footer-title">LUXURY</h1>
+                    <p class="footer-description">Quisque pretium fermentum quam, sit amet cursus ante sollicitudin vel.
+                        Morbi consequat risus consequat, porttitor orci sit amet, iaculis nisl.</p>
+                    <div class="social-icons">
+                        <i class='bx bxl-facebook'></i>
+                        <i class='bx bxl-instagram'></i>
+                        <i class='bx bxl-youtube'></i>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h2 class="footer-subtitle">General</h2>
+                    <ul class="footer-links">
+                        <li>Accommodation</li>
+                        <li>Dine & Drink</li>
+                        <li>Spa & Leisure</li>
+                        <li>Services</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h2 class="footer-subtitle">Contact Us</h2>
+                    <p class="footer-contact">Morem ipsum dolor sit amet one of consetur acing elit.</p>
+                    <p class="footer-contact">A: Via Venti Settembre, Roma</p>
+                    <p class="footer-contact">E: Example@allogio.com</p>
+                    <p class="footer-contact">P: +31 555 777 83</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h2 class="footer-subtitle">Newsletter</h2>
+                    <input type="email" placeholder="Enter Your E-mail...." class="newsletter-input">
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
